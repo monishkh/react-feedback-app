@@ -1,0 +1,64 @@
+/* Write your CSS code here. */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.feedback-app {
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 600px;
+  min-height: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.feed-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+  max-height: 200px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-family: 18px;
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+.heart-img {
+  width: 50px;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-right: 40px;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
